@@ -1,0 +1,30 @@
+#id1 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+#id2 {
+    background-color: coral;
+    width: 200px;
+    height: 400px;
+    border: 1px solid;
+    overflow: scroll;
+
+}
+#id3 {
+    background-color: coral;
+    width: 200px;
+    height: 600px;
+    border: 1px solid;
+    overflow: auto;
+}
+#id4 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+}

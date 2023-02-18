@@ -1,0 +1,40 @@
+#col1 {
+    background-color: #aaa;
+}
+
+#col2 {
+    background-color: #bbb;
+}
+
+#col3 {
+    background-color: #ccc;
+}
+
+#col4 {
+    background-color: #ddd;
+}
+
+.coluna {
+    float: left;
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.linha::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 992px) {
+    .coluna {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .coluna {
+        width: 100%;
+    }
+}

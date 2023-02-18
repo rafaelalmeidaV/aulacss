@@ -1,0 +1,20 @@
+.div1 {
+    padding: 10px;
+    border: 2px solid green;
+    float: left;
+}
+.div2 {
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.div4 {
+    padding: 10px;
+    border: 2px solid green;
+    float: left;
+}
+.div5 {
+    padding: 10px;
+    border: 2px solid red;
+    clear: left;
+}

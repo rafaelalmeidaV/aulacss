@@ -1,0 +1,19 @@
+p{
+    color: white;
+    background-color: blue;
+    width: 30%;
+    display: inline-block;
+    
+}
+a{
+    color: white;
+    background-color: red;
+    width: 60%;
+    display: inline-block;
+}
+
+span{
+    color: white;
+    background-color: brown;
+    display: inline-block;
+}

@@ -1,0 +1,30 @@
+.top {
+    background-color: #333;
+    position: relative;
+}
+
+.top a {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+.top a:hover {
+    background-color: grey;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .top{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top a{
+        display: block;
+        width: 100%;
+    }
+
+}

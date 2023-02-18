@@ -1,0 +1,13 @@
+#cabeçalho{
+   background-color: lightblue;
+   color: black;
+   padding: 40px;
+   text-align: center;
+    
+}
+
+.cidade{
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+}

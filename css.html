@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Exemplo de formulario</h3>
+    <form>
+        <label for="lbl_nome">Nome Completo</label><br>
+        <input type="text" id="input_nome" name="input_nome" required><br><br>
+        <label for="lbl_endereço">Endereço</label> <br>
+        <input type="text" id="input_endereço" name="input_endereço" required><br><br>
+
+        <label for="estados">Seu estado</label><br>
+        <select value="estados" name="estados">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+
+        </select><br>
+
+        <label for="lbl_emal">email</label><br>
+        <input type="email" id="input_email" name="input_email" required> <br><br>
+        <label for="lbl_celular (DDD)">Celular</label><br>
+        <input type="tel" id="input_tel" name="input_tel" required pattern="[0-9]{2} [0-9]{5} [0-9]{4}"
+            placeholder="11 86969-6969"><br><br>
+
+        <label for="lbl_linkedin">URL Linkedin</label><br>
+        <input type="url" id="input_url" name="input_url"><br><br>
+        <label for="lbl_data_nasc">Data de nascimento</label><br>
+        <input type="date" id="input_data" name="input_data"><br><br>
+
+        <label for="lbl_estado_civil">Estado civil</label><br>
+        <select name="slct_estado_civil" id="slct_estado_civil">
+            <option value="solteiro">solteiro</option>
+            <option value="casado">casado</option>
+            <option value="divorciado">divorciado</option>
+            <option value="outro">outro</option>
+        </select>
+        <br><br>
+
+        <fieldset style="width: 200px;">
+            <legend>Sexo</legend><br>
+            <input type="radio" id="sexo_masculino" name="sexo" value="masculino">
+            <label for="sexo_masc">masculino</label><br>
+            <input type="radio" id="sexo_feminino" name="sexo" value="feminino">
+            <label for="sexo_fem">Feminino</label>
+
+        </fieldset><br><br>
+
+        <label for="lbl_usuario">Usuario</label><br>
+        <input type="text" id="input_text" name="input_text" required><br>
+        <label for="lbl_senha">senha</label><br><br>
+        <input type="password" id="input_password" name="input_password" required><br>
+        <label for="lbl_upload">anexar curriculo</label><br><br>
+        <input type="file" name="input_file" id="input_file"><br><br>
+
+
+    </form>
+
+</body>
+
+</html>
